@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Routing</title>
+</head>
+<body>
+  <h1>Routing</h1>
+  <!-- using routerLink -->
+  <button routerLink="/employee-list" routerLinkActive="active">Employees</button>
+  <button class="btn2" routerLink="/roles" routerLinkActive="active">Roles</button><br><br>
+  <!-- using router.navigate -->
+  <button (click)="OnClick()">Click</button>
+  <button class="btn2" (click)="adminAccess()">admin</button>
+</body>
+</html>
+<router-outlet></router-outlet>
